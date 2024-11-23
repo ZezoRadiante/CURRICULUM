@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - [José Artur Melo]</title>
+    <style>
+        
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            font-size: 26px;
+        }
+
+        header p {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+        main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 700px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            font-size: 20px;
+            color: #005f73;
+            border-bottom: 2px solid #005f73;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-top: 20px;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="nome">José Artur Melo Amaro Mendes </h1>
+        <p id="descricao">Estudante de Análise e Desenvolvimento de Sistemas | Apaixonado por Tecnologia</p>
+    </header>
+    <main>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p><strong>Email:</strong> joseaturmelo2@hotmail.com</p>
+            <p><strong>Telefone:</strong> (83) 99961 7826</p>
+            <p><strong>Localização:</strong> João Pessoa PB, Brasíl</p>
+        </section>
+
+        <section id="sobre-mim">
+            <h2>Sobre Mim</h2>
+            <p>
+                Sou um estudante apaixonado por tecnologia, em busca de aprender mais sobre desenvolvimento
+                e resolver problemas reais com programação. Meu objetivo é transformar ideias em soluções práticas,
+                mesmo que eu esteja apenas começando minha jornada.
+            </p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Conhecimento básico em HTML, CSS e JavaScript</li>
+                <li>Noções de lógica de programação</li>
+                <li>Vontade de aprender e se desenvolver continuamente</li>
+                <li>Boa comunicação e trabalho em equipe</li>
+                <li>Experiência no mercado de trabalho</li>
+            </ul>
+        </section>
+
+        <section id="educacao">
+            <h2>Educação</h2>
+            <ul>
+                <li><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</li>
+                <li><strong>Instituição:</strong> UNIPÊ - CENTRO UNIVESITÁRIO DE JOÃO PESSOA</li>
+                <li><strong>Início:</strong> 2024</li>
+            </ul>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiência</h2>
+            <ul>
+                <li>Participação em projetos acadêmicos para prática de programação</li>
+                <li>Criação de pequenas aplicações para aprendizado pessoal</li>
+            </ul>
+        </section>
+        <section id="Contratos de trabalho">
+            <h2>Contratos de trabalho</h2>
+            <ul>
+                <li>QUEIROGA LOCAÇÕES E COMERCIO LTDA - 19/10/2021</li>
+                <li>ELEVADORES ACTA PB COMERCIO E SERVICOS LTDA - 02/05/2019 - 01/10/2019</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Feito com dedicação por José Artur utilizando HTML e CSS | © 2024</p>
+    </footer>
+</body>
+</html>
